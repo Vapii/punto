@@ -22,7 +22,7 @@ const TaskItem = ({ tarea, deleteTask }) => {
           <button 
             onClick={handleClick}
             style={{backgroundColor: importante ? "#EC7063" : "#FFFFCC", 
-                    borderColor: importante ? "#EC7063" : "#FFFFCC",}}
+                    borderColor: importante ? "#EC7063" : "#FFFFCC", boxShadow:'0%'}}
                     color="#000000"
           >
             x

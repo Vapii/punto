@@ -53,7 +53,7 @@ const TaskForm = ({ addTarea }) => {
           Importante
         </label>
       </div>
-      <button class="col"type="submit" backgroundColor="##111">Agregar</button>
+      <button class="col"type="submit" style={{backgroundColor:"#111",color:"white" }}>Agregar</button>
     </form>
   );
 };
